@@ -79,6 +79,10 @@ main {
     position: relative;
 }
 
+#record{
+    animation: record 5s linear infinite;
+}
+
 #arm {
     position: absolute;
 
