@@ -32,7 +32,7 @@ function prev() {
 
 function showMessage() {
     // array with texts to type in typewriter
-    var dataText = [ "Dear laloves,", "my one and only honeybunch", "sugarplum",
+    let dataText = ["Dear laloves,", "my one and only honeybunch", "sugarplum",
          "love of my life", "my forever baby love", "and labs,",
         "itis watitis", "I love you,", "It's so sweet, knowing that you love me.",
         "I don't care how long it takes, as long as I'm with you.", "When we're apart and I'm missing you",
@@ -67,7 +67,7 @@ function showMessage() {
           }, 15000);
        }
        // check if dataText[i] exists
-      if (i < dataText[i].length) {
+      if (i < dataText[i].length)  {
         // text exists! start typewriter animation
        typeWriter(dataText[i], 0, function(){
          // after callback (and whole text has been animated), start next text
